@@ -10,11 +10,6 @@ function logMessage(message) {
   fs.appendFileSync(LOG_FILE, logEntry, 'utf8');
 }
 
-
-
-
-
-
 // Function to generate sample data
 function generateData() {
   const numbers = Array.from({ length: 20 }, () => Math.floor(Math.random() * 100));
